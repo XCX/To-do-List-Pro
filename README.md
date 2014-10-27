@@ -7,3 +7,5 @@ To-do List Pro
 		$ bower install
 		$ npm install
 		$ npm start
+		
+  It will be shown at localhost:3000
