@@ -1,0 +1,118 @@
+extends layout
+block header
+    div.page-heade.text-center
+        h1= title       
+block content 
+    // search form
+    div#todoList
+        div#search-form.row
+            div.col-sm-8.col-sm-offset-2.text-center
+                form(role='search')
+                    div.form-group.inner-addon.left-addon
+                        i.glyphicon.glyphicon-search
+                        input.form-control.text-center(type="text", placeholder="Search", ng-model="searchText.title", ng-change="search()")
+    // todos body
+    div#todo-body.row
+        div#accordion.panel-group.col-sm-8.col-sm-offset-2
+            // search result
+            div.panel.panel-primary(ng-show='showSearchRes')
+                div.panel-heading
+                    h4.panel-title Search Result
+                div.panel-body
+                    li.list-group-item(ng-repeat='todo in todos | filter:searchText')
+                        input.glyphicon.glyphicon-ok-sign(type='checkbox', value='{{todo._id}}', ng-model='todo.done', ng-change='switchStatus()')
+                        span.todoContent.todayDate {{todo.date}}
+                        span(editable-text='todo.title', e-form='editableTitleForm' e-name='editableTitleForm' onaftersave="saveChange()")  {{todo.title}}
+                        button.btn.btn-danger.pull-right.deleteBtn(type='button' ng-show='editableTitleForm.$visible' ng-click='deleteTodo()') Delete
+                        i.editTodo.glyphicon.glyphicon-pencil(type='button',  ng-click='editableTitleForm.$show()', ng-hide='editableTitleForm.$visible')
+            // today
+            div.panel.panel-success(ng-show='!showSearchRes')
+                div.panel-heading
+                    h4.panel-title
+                        a(data-toggle='collapse', data-parent='#accordion' href='#collapseToday') Today
+                div#collapseToday.panel-collapse.collapse.in
+                    div.panel-body
+                        li.list-group-item(ng-repeat='todo in todayTodos')
+                            input.glyphicon.glyphicon-ok-sign(type='checkbox', value='{{todo._id}}', ng-model='todo.done', ng-change='switchStatus()')
+                            span.todoContent.todayDate {{todo.date}}
+                            span(editable-text='todo.title', e-form='editableTitleForm' e-name='editableTitleForm' onaftersave="saveChange()")  {{todo.title}}
+                            button.btn.btn-danger.pull-right.deleteBtn(type='button' ng-show='editableTitleForm.$visible' ng-click='deleteTodo()') Delete
+                            i.editTodo.glyphicon.glyphicon-pencil(type='button',  ng-click='editableTitleForm.$show()', ng-hide='editableTitleForm.$visible')
+            // upcoming
+            div.panel.panel-info(ng-show='!showSearchRes')
+                div.panel-heading 
+                    h4.panel-title
+                        a.collapsed(data-toggle='collapse', data-parent='#accordion' href='#collapseThisWeek') Upcoming
+                div#collapseThisWeek.panel-collapse.collapse
+                    div.panel-body
+                        li.list-group-item(ng-repeat="todo in upcomingTodos | orderBy:'date'") 
+                            input.glyphicon.glyphicon-ok-sign(type='checkbox', value='{{todo._id}}', ng-model='todo.done', ng-change='switchStatus()')
+                            span.todoContent.upcomingDate {{todo.date}}
+                            span(editable-text='todo.title', e-form='editableTitleForm' e-name='editableTitleForm' onaftersave="saveChange()")  {{todo.title}}
+                            button.btn.btn-danger.pull-right.deleteBtn(type='button' ng-show='editableTitleForm.$visible' ng-click='deleteTodo()') Delete
+                            i.editTodo.glyphicon.glyphicon-pencil(type='button',  ng-click='editableTitleForm.$show()', ng-hide='editableTitleForm.$visible')
+            // past
+            div.panel.panel-warning(ng-show='!showSearchRes')
+                div.panel-heading 
+                    h4.panel-title
+                        a.collapsed(data-toggle='collapse', data-parent='#accordion' href='#collapseBeforeAWeek') Past
+                div#collapseBeforeAWeek.panel-collapse.collapse
+                    div.panel-body
+                        li.list-group-item(ng-repeat="todo in pastTodos | orderBy:'-date'") 
+                            input.glyphicon.glyphicon-ok-sign(type='checkbox', value='{{todo._id}}', ng-model='todo.done', ng-change='switchStatus()')
+                            span.todoContent.pastDate {{todo.date}}
+                            span(editable-text='todo.title', e-form='editableTitleForm' e-name='editableTitleForm' onaftersave="saveChange()")  {{todo.title}}
+                            button.btn.btn-danger.pull-right.deleteBtn(type='button' ng-show='editableTitleForm.$visible' ng-click='deleteTodo()') Delete
+                            i.editTodo.glyphicon.glyphicon-pencil(type='button',  ng-click='editableTitleForm.$show()', ng-hide='editableTitleForm.$visible')
+    // add form
+    div#todo-form.text-center(ng-controller='FormCtrl')
+        form(ng-submit="addTodo()")
+            div.row
+                div#titleField.col-sm-8.col-sm-offset-2.form-group
+                    input.form-control.input-lg(type='text', placeholder="Add a new task", ng-model='title', required)
+            div.row
+                div.form-inline.col-sm-8.col-sm-offset-2
+                    div.pull-left
+                        div#dateInput.input-group
+                            input.form-control(type='text', datepicker-popup="{{format}}", ng-model='dt', is-open='opened', min-date='minDate', max-date='"2015-06-22"', datepicker-options='dateOptions', ng-required='true', close-text='Close')
+                            span.input-group-btn
+                                button.btn.btn-default(type='button', ng-click='open($event)')
+                                    i.glyphicon.glyphicon-calendar
+                        div.input-group
+                            button.btn.btn-primary(type='submit') Add Task
+                    div.input-group.pull-right
+                        button.btn.btn-primary(type="button", ng-click="openModal()")
+                            span.glyphicon.glyphicon-wrench
+        hr
+    // charts field
+    div#chartdiv(g-chart)
+    // modal template
+    script(type="text/ng-template" id="myModalContent.html").
+        <div class="modal-header">
+            <h3 class="modal-title">Notifications Settings</h3>
+        </div>
+        <form name="twilioForm" ng-submit="twilioSubmit()">
+            <div class="modal-body">
+                <div class="input-group modal-input">
+                  <input type="text" class="form-control" placeholder="Name" ng-model="twilioName" required>
+                </div>
+                <div class="input-group modal-input">
+                  <input name="tel" type="text" class="form-control" placeholder="Phone Number eg: 4803300088" ng-model="twilioTel" ng-pattern="/^[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$/" required>
+                  <span ng-show="twilioForm.tel.$error.pattern">Not a valid phone number</span>
+                </div>
+                <div class="input-group">
+                    <input type="checkbox" ng-model="twilioAllow">  Allow text message notifications
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" type="submit">OK</button>
+                <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+            </div>
+        </form>
+        
+block footer
+    footer
+        div.text-center
+            p 
+                |XCX's work. <br />
+                |Enjoy!

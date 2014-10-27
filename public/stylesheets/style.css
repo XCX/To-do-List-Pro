@@ -1,0 +1,832 @@
+
+/* line 186 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003186}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/stylus/lib/functions/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
+
+/* line 286 : /Users/Chen/Development/node-projects/quiz/node_modules/stylus/lib/functions/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/stylus\/lib\/functions\/index\.styl}line{font-family:\00003286}}
+
+/* line 13 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/index\.styl}line{font-family:\0000313}}
+
+/* line 13 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/index\.styl}line{font-family:\0000313}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/border.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/border\.styl}line{font-family:\000031}}
+
+/* line 10 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/border.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/border\.styl}line{font-family:\0000310}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/clearfix.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/clearfix\.styl}line{font-family:\000031}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/clearfix.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/clearfix\.styl}line{font-family:\0000328}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/color-image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/color-image\.styl}line{font-family:\000031}}
+
+/* line 4 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/color-image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/color-image\.styl}line{font-family:\000034}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/flex.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/flex\.styl}line{font-family:\000031}}
+
+/* line 196 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/flex.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/flex\.styl}line{font-family:\00003196}}
+
+/* line 90 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/gradients.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/gradients\.styl}line{font-family:\0000390}}
+
+/* line 90 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/gradients.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/gradients\.styl}line{font-family:\0000390}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\000031}}
+
+/* line 11 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\0000311}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/iconic.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/iconic\.styl}line{font-family:\000031}}
+
+/* line 7 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/iconic.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/iconic\.styl}line{font-family:\000037}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/image\.styl}line{font-family:\000031}}
+
+/* line 25 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/image\.styl}line{font-family:\0000325}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/overflow.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/overflow\.styl}line{font-family:\000031}}
+
+/* line 20 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/overflow.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/overflow\.styl}line{font-family:\0000320}}
+
+/* line 3 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/positions.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/positions\.styl}line{font-family:\000033}}
+
+/* line 66 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/positions.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/positions\.styl}line{font-family:\0000366}}
+
+/* line 3 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\000033}}
+
+/* line 78 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000378}}
+
+/* line 5 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/index\.styl}line{font-family:\000035}}
+
+/* line 5 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/index\.styl}line{font-family:\000035}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/aliases.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/aliases\.styl}line{font-family:\000031}}
+
+/* line 12 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/aliases.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/aliases\.styl}line{font-family:\0000312}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/ellipsis\.styl}line{font-family:\000031}}
+
+/* line 9 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/ellipsis\.styl}line{font-family:\000039}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/hide-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/hide-text\.styl}line{font-family:\000031}}
+
+/* line 8 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/hide-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/hide-text\.styl}line{font-family:\000038}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/replace-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/replace-text\.styl}line{font-family:\000031}}
+
+/* line 9 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/replace-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/replace-text\.styl}line{font-family:\000039}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/shadow-stroke\.styl}line{font-family:\000031}}
+
+/* line 2 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/shadow-stroke\.styl}line{font-family:\000032}}
+
+/* line 541 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/vendor.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/vendor\.styl}line{font-family:\00003541}}
+
+/* line 11 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/vendor.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/vendor\.styl}line{font-family:\0000311}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\000031}}
+
+/* line 577 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\00003577}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/size.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/size\.styl}line{font-family:\000031}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\000031}}
+/*
+ * Import nib
+ */
+
+/* line 13 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/size.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/size\.styl}line{font-family:\0000313}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/index\.styl}line{font-family:\0000328}}
+
+/* line 10 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/index\.styl}line{font-family:\0000310}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/border.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/border\.styl}line{font-family:\000031}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/border.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/border\.styl}line{font-family:\0000328}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/clearfix.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/clearfix\.styl}line{font-family:\000031}}
+
+/* line 4 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/clearfix.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/clearfix\.styl}line{font-family:\000034}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/color-image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/color-image\.styl}line{font-family:\000031}}
+
+/* line 196 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/color-image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/color-image\.styl}line{font-family:\00003196}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/flex.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/flex\.styl}line{font-family:\000031}}
+
+/* line 90 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/flex.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/flex\.styl}line{font-family:\0000390}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/gradients.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/gradients\.styl}line{font-family:\0000328}}
+
+/* line 11 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/gradients.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/gradients\.styl}line{font-family:\0000311}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\000031}}
+
+/* line 7 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\000037}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/iconic.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/iconic\.styl}line{font-family:\000031}}
+
+/* line 25 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/iconic.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/iconic\.styl}line{font-family:\0000325}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/image\.styl}line{font-family:\000031}}
+
+/* line 20 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/image.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/image\.styl}line{font-family:\0000320}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/overflow.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/overflow\.styl}line{font-family:\000031}}
+
+/* line 66 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/overflow.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/overflow\.styl}line{font-family:\0000366}}
+
+/* line 3 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/positions.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/positions\.styl}line{font-family:\000033}}
+
+/* line 78 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/positions.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/positions\.styl}line{font-family:\0000378}}
+
+/* line 3 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\000033}}
+
+/* line 5 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\000035}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/index\.styl}line{font-family:\0000328}}
+
+/* line 12 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/index.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/index\.styl}line{font-family:\0000312}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/aliases.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/aliases\.styl}line{font-family:\000031}}
+
+/* line 9 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/aliases.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/aliases\.styl}line{font-family:\000039}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/ellipsis\.styl}line{font-family:\000031}}
+
+/* line 8 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/ellipsis.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/ellipsis\.styl}line{font-family:\000038}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/hide-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/hide-text\.styl}line{font-family:\000031}}
+
+/* line 9 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/hide-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/hide-text\.styl}line{font-family:\000039}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/replace-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/replace-text\.styl}line{font-family:\000031}}
+
+/* line 2 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/replace-text.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/replace-text\.styl}line{font-family:\000032}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/shadow-stroke\.styl}line{font-family:\000031}}
+
+/* line 577 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/text/shadow-stroke.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/text\/shadow-stroke\.styl}line{font-family:\00003577}}
+
+/* line 541 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/vendor.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/vendor\.styl}line{font-family:\00003541}}
+
+/* line 11 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/vendor.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/vendor\.styl}line{font-family:\0000311}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\000031}}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/config.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/config\.styl}line{font-family:\0000328}}
+
+/* line 1 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/size.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/size\.styl}line{font-family:\000031}}
+
+/* line 6 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\000036}}
+/*
+ * Grab a custom font from Google
+ */
+
+/* line 9 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\000039}}
+@import url("http://fonts.googleapis.com/css?family=Quicksand");
+
+/* line 11 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000311}}
+/*
+ * Nib provides a CSS reset
+ */
+
+/* line 4 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\000034}}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 14 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000314}}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+
+/* line 16 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000316}}
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 18 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000318}}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 20 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000320}}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 22 : /Users/Chen/Development/node-projects/quiz/node_modules/nib/lib/nib/reset.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/node_modules\/nib\/lib\/nib\/reset\.styl}line{font-family:\0000322}}
+a img {
+  border: none;
+}
+
+/* line 16 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000316}}
+/*
+ * Store the main color and
+ * background color as variables
+ */
+
+/* line 23 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000323}}
+body {
+  font-family: 'Georgia';
+  background-color: #faf9f0;
+  color: #444;
+}
+
+/* line 28 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000328}}
+header {
+  font-family: 'Quicksand';
+  padding: 50px 10px;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+/*
+   * Note the use of the `main-color`
+   * variable and the `darken` function
+   */
+  background-color: #fa5b4d;
+  border-bottom: 1px solid #df1806;
+  text-shadow: 0px -1px 0px #df1806;
+}
+
+/* line 43 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000343}}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+/* line 48 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000348}}
+.main-content {
+  float: left;
+  width: 300px;
+}
+
+/* line 52 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000352}}
+.main-content p {
+  margin-bottom: 20px;
+}
+
+/* line 55 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000355}}
+.sidebar {
+  float: left;
+  width: 200px;
+}
+
+/* line 59 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000359}}
+.sidebar .widget {
+/*
+     * Note the lack of vendor
+     * prefixes here. Nib will
+     * add them for us
+     */
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  background-color: #faf9f0;
+  -webkit-box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.8), 0px 3px 0px -2px rgba(0,0,0,0.1);
+  box-shadow: inset 0px 0px 0px 3px rgba(255,255,255,0.8), 0px 3px 0px -2px rgba(0,0,0,0.1);
+}
+
+/* line 72 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000372}}
+.sidebar .widget h1 {
+  font-family: 'Quicksand';
+  margin: 13px 10px 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #ddd;
+  -webkit-border-radius: 2px 2px 0px 0px;
+  border-radius: 2px 2px 0px 0px;
+  margin-bottom: 10px;
+}
+
+/* line 80 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000380}}
+.sidebar .widget p {
+  font-size: 13px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+/* line 85 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000385}}
+p {
+  line-height: 1.8;
+}
+
+/* line 88 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000388}}
+footer {
+  width: 500px;
+  margin: 50px auto;
+  border-top: 1px dotted #ccc;
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+/* line 95 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000395}}
+/* Add Bootstrap Glyphicon to Input Box */
+
+/* line 96 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000396}}
+/* enable absolute positioning */
+
+/* line 97 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000397}}
+.inner-addon {
+  position: relative;
+}
+
+/* line 99 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\0000399}}
+/* style icon */
+
+/* line 100 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003100}}
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* line 104 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003104}}
+/* align icon */
+
+/* line 105 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003105}}
+.left-addon .glyphicon {
+  left: 0px;
+}
+
+/* line 107 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003107}}
+.right-addon .glyphicon {
+  right: 0px;
+}
+
+/* line 109 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003109}}
+/* add padding  */
+
+/* line 110 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003110}}
+.left-addon input {
+  padding-left: 30px;
+}
+
+/* line 112 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003112}}
+.right-addon input {
+  padding-right: 30px;
+}
+
+/* line 115 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003115}}
+.panel-heading a:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";
+  float: right;
+  color: #808080;
+}
+
+/* line 121 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003121}}
+.panel-heading a.collapsed:after {
+  content: "\e080";
+}
+
+/* line 124 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003124}}
+.panel-heading a:hover {
+  text-decoration: none;
+}
+
+/* line 127 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003127}}
+.alert-message {
+  color: #a94442;
+  text-align: left;
+  margin: 0;
+}
+
+/* line 132 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003132}}
+.panel-body {
+  padding: 0 !important;
+}
+
+/* line 135 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003135}}
+.list-group-item:first-child {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* line 139 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003139}}
+#dateInput {
+  padding-right: 30px;
+}
+
+/* line 142 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003142}}
+span.todoContent {
+  font-size: 12px;
+}
+
+/* line 145 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003145}}
+span.todayDate {
+  color: #3c763d;
+}
+
+/* line 148 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003148}}
+span.upcomingDate {
+  color: #31708f;
+}
+
+/* line 151 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003151}}
+span.pastDate {
+  color: #8a6d3b;
+}
+
+/* line 154 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003154}}
+.glyphicon:before {
+  visibility: visible;
+}
+
+/* line 157 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003157}}
+.glyphicon.glyphicon-ok-sign {
+  color: #ccc;
+}
+
+/* line 160 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003160}}
+.glyphicon.glyphicon-ok-sign:checked {
+  color: #509d51;
+}
+
+/* line 163 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003163}}
+input[type=checkbox].glyphicon {
+  visibility: hidden;
+  font-size: 15px;
+  margin-right: 10px !important;
+  top: -3px !important;
+  cursor: pointer;
+}
+
+/* line 170 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003170}}
+i[type=button].glyphicon.glyphicon-pencil.editTodo {
+  float: right;
+  color: #808080;
+  cursor: pointer;
+}
+
+/* line 175 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003175}}
+.editable-wrap {
+  width: 70%;
+}
+
+/* line 178 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003178}}
+.editable-controls {
+  width: 100%;
+}
+
+/* line 181 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003181}}
+.editable-input {
+  width: 80% !important;
+}
+
+/* line 184 : /Users/Chen/Development/node-projects/quiz/views/stylesheets/style.styl */
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Chen\/Development\/node-projects\/quiz\/views\/stylesheets\/style\.styl}line{font-family:\00003184}}
+.modal-input {
+  width: 100%;
+  padding-bottom: 12px;
+}

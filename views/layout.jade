@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
+    link(rel="stylesheet", href="bower_components/angular-xeditable/dist/css/xeditable.css")
+    link(rel="shortcut icon" href="images/favicon.ico")
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/angular/angular.min.js')
+    script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+    script(src="/bower_components/angular-xeditable/dist/js/xeditable.js")
+    script(src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.2.js")
+    script(type="text/javascript", src="https://www.google.com/jsapi")
+    script(src='/javascripts/ng-google-chart.js')        
+    script(src='/javascripts/angularApp.js')
+    
+  body(ng-app='to-do', ng-controller="MainCtrl")
+   block header   	
+   block content
+   block footer
+   
