@@ -17,7 +17,6 @@ var TwilioInfo = mongoose.model('TwilioInfo', {
 
 var twilioInfo = TwilioInfo.find(function(err, data) {
     if (err) { return next(err); }
-    return "cao"
 });
 /* GET home page. */
 
